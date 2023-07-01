@@ -20,8 +20,6 @@ Run the script with container name and admin password.
 ```
 ## Example
 ```
-python.exe .\VT_IP_query.py
-```
 > docker_builder.sh -c dev_splunk01 -p AZERTY0123
 
 --------------------------
