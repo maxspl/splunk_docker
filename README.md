@@ -1,6 +1,6 @@
 # Splunk_Docker
 
-Bash script that allows you to deploy multiple Splunk instance on a single host. 
+Bash script that allows you to deploy multiple Splunk instances on a single host. 
 The tool automatically increments ports on each run. 
 
 It is not secured, use it only for dev.
