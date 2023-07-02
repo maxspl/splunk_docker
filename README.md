@@ -44,7 +44,7 @@ sudo docker run -d -p 8005:8000 -p 1006:1001 -p 8094:8089 --name dev_splunk01
 _____-e "SPLUNK_PASSWORD=AZERTY0123"
 _____-e "SPLUNK_START_ARGS=--accept-license"
 _____-e "SPLUNK_APPS_URL=http://10.0.0.1:8080/requirements/app1.tgz,
-_______http://10.0.0.1:8080/requirements/app1.tgz" -it splunk/splunk:latest
+_______http://10.0.0.1:8080/requirements/app2.tgz" -it splunk/splunk:latest
 
 [INFO] - Launching the command... Use 'sudo docker ps -a to check the container status
 45460e361b82b87c6fc19fd8373dfc4f18a533f4d2f0f8816a8bf86970fe21b9
